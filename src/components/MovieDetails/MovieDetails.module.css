@@ -1,0 +1,22 @@
+.section {
+    padding: 0 25px;
+}
+
+.btnBack {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 25px;
+    border-bottom: 3px solid black;
+}
+
+.title {
+    display: block;
+}
+
+.containerDescription {
+    margin-left: 15px;
+}

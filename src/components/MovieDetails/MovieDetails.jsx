@@ -50,7 +50,7 @@ const MovieDetails = () => {
                             <li><Link type="button" to="reviews" state={location.state}>Reviews</Link></li>
                         </ul>
 
-                        <Suspense fallback={<div>Loading page...</div>}>
+                        <Suspense fallback={<div>Loading...</div>}>
                             <Outlet />
                         </Suspense>
                     </div>
